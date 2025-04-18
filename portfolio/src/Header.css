@@ -1,0 +1,48 @@
+* {
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: content-box;
+    animation-name: anime;
+    animation-duration: 1s;
+  }
+  
+@keyframes anime {
+    from {
+      margin-top: 200px;
+      filter: blur(5px);
+    }
+    to {
+      filter: blur(0px);
+    }
+}
+
+header {
+    display: block;
+}
+
+header img {
+    width: 200px;
+    height: 210px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px silver;
+}
+
+header .name {
+    width: 400px;
+    justify-self: center;
+    box-shadow: 1px 1px 20px silver;
+    font-size: 40px;
+    margin-top: 10px;
+    color: cornflowerblue;
+}
+
+header .address {
+    width: 450px;
+    justify-self: center;
+    box-shadow: 1px 1px 20px silver;
+    margin: 0px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: darkgrey;
+}

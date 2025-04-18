@@ -1,0 +1,31 @@
+.card {
+    /* width: 250px; */
+    display: inline-block;
+    box-shadow: 1px 1px 5px silver;
+    padding: 0px;
+    margin: 30px;
+}
+
+.card:hover {
+    transition-duration: 2s;
+    transform: scale(1.2);
+    box-shadow: 1px 1px 20px silver;
+}
+
+.card .name {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: darkcyan;
+}
+
+.card .p {
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    padding: 20px;
+    color: rgb(201, 163, 112);
+}
+
